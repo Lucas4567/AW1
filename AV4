@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sheldon Nerd</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background: rgb(0, 0, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #cabecalho a {
+            text-decoration: none;
+        }
+
+        #cabecalho a:link {
+            color: black;
+            padding: 8px 12px;
+        }
+
+        #cabecalho a:visited {
+            color: black;
+            padding: 8px 12px;
+        }
+
+        #cabecalho a:hover {
+            color: black;
+            background: rgba(136, 0, 220, 0.996);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:link {
+            color: rgb(144, 11, 221);
+        }
+
+        a:visited {
+            color: rgb(144, 11, 221);
+                }
+
+        a:hover {
+            color: rgb(255, 0, 0);
+        }
+
+        a.active {
+            color: rgb(98, 0, 255);
+        }
+
+        h2 {
+            color: rgb(0, 0, 0);
+            margin: 10px;
+        }
+
+        h3 {
+            color: #ff0000;
+            background: #42017b6c;
+            padding: 0px;
+        }
+
+        #data {
+            font-size: 0.7em;
+            display: block;
+            padding-top: 0px;
+            padding-bottom: 15px;
+            margin: 10px;
+        }
+
+        #cabecalho {
+            width: 950px;
+            margin: 10px auto;
+            padding: 15px;
+            background: rgb(87, 87, 87);
+            text-align: center;
+        }
+
+        #cabecalho_nome,
+        #cabecalho_menu {
+            padding: 15px;
+        }
+
+        #principal {
+            width: 950px;
+            margin: 10px auto;
+        }
+
+        #postagem {
+            width: 660px;
+            margin: 10px;
+            float: left;
+        }
+
+        #lateral {
+            width: 240px;
+            margin: 10px;
+            float: right;
+        }
+
+        .conteudo_postagem {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+        }
+
+        .conteudo-lateral {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+        }
+
+        .laranja {
+            color: rgb(255, 255, 255);
+        }
+
+        .conteudo_postagem:hover img {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        #rodape {
+            clear: both;
+            width: 900px;
+            margin: 10px auto;
+            padding: 15px;
+            background: rgb(17, 0, 255);
+            text-align: center;
+        }
+
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background: white;
+            border: 2px solid #d40000;
+            border-radius: 5px;
+            z-index: 1000;
+        }
+
+        #popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="popup-overlay"></div>
+    <div id="popup">
+        <h2>Bem-vindo ao Sheldon Nerd</h2>
+        <p>Aqui você encontra muitas coisas sobre os jogos mais jogados da atualidade!
+        </p>
+        <button id="fecharPopup" class="btn btn-primary">X</button>
+    </div>
+
+    <div id="cabecalho">
+        <div id="cabecalho_nome">
+            <h1>Sheldon Gamer</span></h1>
+            <p>Aqui você encontra muitas coisas sobre os jogos mais jogados da atualidade!
+        <div id="cabecalho_menu">
+            <a href="https://playvalorant.com/pt-br/">Valorant</a> |
+            <a href="https://www.rockstargames.com/gta-v">GTA V</a> |
+            <a href="https://www.leagueoflegends.com/pt-br/">LOL</a> |
+            <a href="https://www.minecraft.net/pt-br">Minecraft</a>
+        </div>
+    </div>
+
+    <div id="principal">
+        <div id="postagem">
+            <div class="conteudo_postagem">
+                <h1>VALORANT</h1>
+                <em id="data">postado em 25 de novembro de 2023.</em>
+                <h2>Novo mapa do Jogo mais jogado é anunciado! SUNSET </h2>
+                <img width="550px" src="https://wallpapercave.com/wp/wp8730792.jpg" />
+                <p>Sunset, o décimo mapa do Valorant, está oficialmente anunciado e chega ao jogo em 29 de agosto, com o lançamento do Episódio 7, Ato 2. O cenário é inspirado na cidade de Los Angeles, nos Estados Unidos, palco do Valorant Champions 2023, o campeonato mundial da modalidade.</p>
+                <h2>De acordo com sua criadora RIOT GAMES!</h2>
+
+                <img width="550px" src="https://cdn1.dotesports.com/wp-content/uploads/2019/04/16124841/Riotgames.png" />
+                <p>Segundo descrição da Riot Games, Sunsent é um mapa com três rotas e dois pontos para colocação da spike com forte ênfase no controle do meio e que tem diversas referências a Los Angeles, onde está localizada a sede da desenvolvedora, tais como trânsito, grafite, food trucks e pôr do sol.
+
+                    — O Valorant tem várias versões da fórmula de mapa com três rotas, mas fazia tempo que não criávamos um com foco forte no controle da rota do meio. O Sunset tem uma rota do meio bastante difícil de controlar e, na prática, não favorece nenhuma das equipes. É uma rota boa para alcance de rifles e oferece diversas oportunidades para a equipe que conseguir dominá-la. Esperamos ver as duas equipes colocarem o controle da rota do meio no centro de suas estratégias no Sunset — declarou o líder de design de mapas, Joe Lansford.</p>
+
+                <h2>Um pouco mais sobre a SUNSET e RIOT GAMES</h2>
+                <img width="550px" src="https://sm.ign.com/t/ign_in/blogroll/v/valorant-w/valorant-will-be-publicly-available-in-june_u2m6.2560.jpg" />
+                <p>Além disso, a Riot Games está ciente dos desafios enfrentados pelos jogadores online, como alta latência (ping), perda de pacotes (packet loss), instabilidade na conexão (jitter) e desconexões (disconnects). Estes são obstáculos comuns que podem prejudicar a experiência de jogo.
+
+                    É aí que entra o NoPing, uma solução brilhante para melhorar esses problemas. O NoPing é uma ferramenta de otimização de conexão que visa reduzir o ping, melhorar a latência, aumentar os quadros por segundo (FPS) e resolver problemas como lag e perda de pacotes. Esta ferramenta se apresenta como uma solução valiosa para os jogadores que buscam uma experiência de jogo mais suave e competitiva.
+                    </p>
+            </div>
+
+            <div class="conteudo_postagem">
+                <h1>GTA V</h1>
+                <h2>Um pouco sobre GTA V</h2>
+                <em id="data">postado em 25 de novembro de 2023.</em>
+                <img width="550px" src="https://th.bing.com/th/id/R.0165180a8e748cb0d4105ff078b65a64?rik=dYX6rrHX6gGOcQ&riu=http%3a%2f%2fi13a.3djuegos.com%2fjuegos%2f5065%2fgrand_theft_auto_v%2ffotos%2fmaestras%2fgrand_theft_auto_v-2658645.jpg&ehk=cMERbe7ELu5NRXPSpvndfSO3V9QDt0U3Pxs%2fNbbedrE%3d&risl=&pid=ImgRaw&r=0" />
+                <p>Grand Theft Auto V é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games. É o sétimo título principal da série Grand Theft Auto e foi lançado originalmente em 17 de setembro de 2013 para PlayStation 3 e Xbox 360, com remasterizações lançadas em 2014 para PlayStation 4 e Xbox One, em 2015 para Microsoft Windows e em 2022 para PlayStation 5 e Xbox Series X/S. O jogo se passa no estado ficcional de San Andreas, com a história da campanha um jogador seguindo três criminosos e seus esforços para realizarem assaltos sob a pressão de uma agência governamental. O mundo aberto permite que os jogadores naveguem livremente pelas áreas rurais e urbanas de San Andreas.</p>
+
+                <h2>Enredo do Jogo</h2>
+                <img width="550px" src="https://cdn.webnews.it/-siGLAc1Kebgho3SRzFhe8SlztY=/650x320/https://www.webnews.it/app/uploads/2013/04/gta5a1.jpg" />
+                <p>O ex-assaltante de bancos Michael Townley vive em Los Santos, San Andreas, com o nome falso de Michael De Santa depois de fazer um acordo secreto com o agente Dave Norton do Federal Investigation Bureau (FIB)[nota 2] para permanecer escondido por causa de um roubo malsucedido em Ludendorff, North Yankton, nove anos antes.[28] Ele conhece e fica amigo do criminoso Franklin Clinton quando este tenta retomar fraudulentamente o carro de seu filho Jimmy em nome de um vendedor armênio corrupto.[29][30] Michael pouco depois descobre que sua esposa Amanda está dormindo com o técnico de tênis, perseguindo-o até uma mansão e destruindo-na em um ataque de raiva. A dona da mansão se revela ser a amante de um mexicano senhor do crime chamado Martin Madrazo, que exige compensação sob a ameaça de mais violência.[31] Michael volta para sua vida de assaltante para obter dinheiro e convoca Franklin como cúmplice.[32] Juntos eles realizam um assalto em uma joalheria para poderem pagar Madrazo.[33] Trevor Philips, o único outro sobrevivente de Ludendorff, descobre sobre o assalto e percebe que foi o trabalho de Michael.[34] Os dois se reencontram depois de Trevor caçar Michael até Los Santos.[35]</p>
+            </div>
+
+            <div class="conteudo_postagem">
+                <h1>LOL</h1>
+                <h2>Novo personagem anunciado no LOL</h2>
+                <img width="550px" src="https://s2-ge.glbimg.com/JkWHQ6xsLLuQJqL7mQAtF9UfQIM=/0x0:1600x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/8/S/RVpLu0SCGJHrvwwjOvIQ/hwei-league-of-legends.jpg" />
+                <p>Após Briar se juntar ao elenco de campeões do League of Legends, a Riot Games aproveitou todo o hype do Worlds 2023 e anunciou seu próximo personagem do MOBA. Hwei, um mago artista, traz ao jogo um kit de habilidades diferente dos que foram adicionados ao jogo nos últimos lançamentos e promete ser um dos campeões mais difíceis de ser jogado com 10 habilidades.</p>
+            </div>
+        </div>
+
+        <div id="lateral">
+            <div class="conteudo-lateral">
+                <h3><font color="Blue"> Outros jogos</font></h3>
+                <div class="postagem-lateral">
+                    <p>PAC MAN</p>
+                    <a href="https://pt.wikipedia.org/wiki/Pac-Man">Jogar</a>
+                    <hr>
+                </div>
+
+                <div class="postagem-lateral">
+                    <p>Super Mário</p>
+                    <a href="https://www.historiadetudo.com/historia-do-mario">História</a>
+                    <hr>
+                </div>
+
+                <div class="postagem-lateral">
+                    <p>FNAF</p>
+                    <a href="https://freddy-fazbears-pizza.fandom.com/pt-br/wiki/História">História</a>
+                    <hr>
+                </div>
+
+               
+                
+                <h4>Criador: Lucas Simões</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="rodape">Todos os direitos reservados</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function abrirPopup() {
+            document.getElementById('popup').style.display = 'block';
+            document.getElementById('popup-overlay').style.display = 'block';
+        }
+
+        function fecharPopup() {
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('popup-overlay').style.display = 'none';
+        }
+
+        window.onload = function () {
+            abrirPopup();
+        };
+
+        document.getElementById('fecharPopup').addEventListener('click', function () {
+            fecharPopup();
+        });
+    </script>
+</body>
+
+</html>
